@@ -23,7 +23,7 @@ template1=PromptTemplate(
     input_variables=['topic']
 )
 
-# 1st prompt detailed prompt 
+# 2nd prompt detailed prompt 
 template2=PromptTemplate(
     template="Write a 5 line summary on the following text. /n {text}",
     input_variables=['text']
