@@ -45,7 +45,7 @@ parallel_chains = RunnableParallel({
     'notes': template1|model1|parser,
     'quiz':template2|model2|parser
 })
-
+#
 merge_chain = template3|model1|parser
 
 chains = parallel_chains|merge_chain
