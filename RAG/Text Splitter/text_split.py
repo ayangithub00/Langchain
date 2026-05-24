@@ -12,7 +12,7 @@ splitter = RecursiveCharacterTextSplitter(
     chunk_overlap=0,
 )
 
-# Perform the split
+# Perform the splits
 chunks = splitter.split_text(text)
 
 print(len(chunks))
